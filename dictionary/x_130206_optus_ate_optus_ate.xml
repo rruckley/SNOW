@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Optus ATE" max_length="40" name="x_130206_optus_ate_optus_ate" type="collection"/>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Optus ATE" max_length="40" name="x_130206_optus_ate_optus_ate" type="collection">
+        <element label="AssignmentGroup" max_length="255" name="assignmentgroup" type="string"/>
+        <element label="BriefDescription" max_length="40" name="briefdescription" type="string"/>
+    </element>
 </database>
