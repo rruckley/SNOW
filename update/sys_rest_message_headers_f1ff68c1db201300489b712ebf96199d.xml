@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Content-type</name>
+        <rest_message display_value="Message to Optus">e3bfa8c1db201300489b712ebf961954</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-26 01:00:25</sys_created_on>
+        <sys_id>f1ff68c1db201300489b712ebf96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-type</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>sys_rest_message_headers_f1ff68c1db201300489b712ebf96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-26 01:00:25</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+</record_update>
