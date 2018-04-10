@@ -5,7 +5,7 @@
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
         <description/>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>ATE with Optus Business</hint>
         <name>Optus ATE</name>
         <order>100</order>
         <roles>x_130206_optus_ate.optus_ate_user</roles>
@@ -15,7 +15,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4661ad44db201300489b712ebf9619bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Optus ATE</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
@@ -23,7 +23,7 @@
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
         <sys_update_name>sys_app_application_4661ad44db201300489b712ebf9619bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-23 02:01:58</sys_updated_on>
+        <sys_updated_on>2018-04-10 05:24:42</sys_updated_on>
         <title>Optus ATE</title>
         <view_name/>
     </sys_app_application>
