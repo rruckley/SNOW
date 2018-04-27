@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="source_field" label="Source Field" language="en" table="x_130206_optus_ate_optus_ate_mapping">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>source_field</element>
+            <help/>
+            <hint/>
+            <label>Source Field</label>
+            <language>en</language>
+            <name>x_130206_optus_ate_optus_ate_mapping</name>
+            <plural>Source Fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 02:25:21</sys_created_on>
+            <sys_id>28c6ed08db201300489b712ebf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Source Field</sys_name>
+            <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+            <sys_update_name>sys_documentation_x_130206_optus_ate_optus_ate_mapping_source_field_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 02:25:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

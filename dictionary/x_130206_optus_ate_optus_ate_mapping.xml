@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Optus ATE Mapping" max_length="40" name="x_130206_optus_ate_optus_ate_mapping" type="collection">
+        <element label="Destination Field" max_length="40" name="destination_field" type="string"/>
+        <element display="true" label="Destination Value" max_length="40" name="destination_value" type="string"/>
+        <element default="INBOUND" label="Direction" max_length="40" name="direction" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Source Field" max_length="40" name="source_field" type="string"/>
+        <element label="Source Value" max_length="40" name="source_value" type="string"/>
+    </element>
+</database>

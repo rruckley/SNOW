@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_assignment_group" label="Assignment Group" language="en" table="x_130206_optus_ate_ate_import_set">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Assignment Group</label>
+            <language>en</language>
+            <name>x_130206_optus_ate_ate_import_set</name>
+            <plural>Assignment Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-27 02:04:06</sys_created_on>
+            <sys_id>80484a51db201300489b712ebf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment Group</sys_name>
+            <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+            <sys_update_name>sys_documentation_x_130206_optus_ate_ate_import_set_u_assignment_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-27 02:04:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
