@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="ATE Import Set" max_length="40" name="x_130206_optus_ate_ate_import_set" type="collection">
-        <element display="true" label="Assignment Group" mandatory="true" max_length="64" name="u_assignment_group" type="string"/>
-    </element>
-</database>
