@@ -9,14 +9,14 @@
         <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_130206_optus_ate_optus_ate</collection>
+        <collection>sys_metadata</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_130206_optus_ate_optus_ate">sys_scope=d8a02d04db201300489b712ebf9619d2^EQ<item display_table="sys_scope" display_value="Optus ATE" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="d8a02d04db201300489b712ebf9619d2"/>
+        <filter_condition table="sys_metadata">sys_scope=d8a02d04db201300489b712ebf9619d2^EQ<item display_table="sys_scope" display_value="Optus ATE" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="d8a02d04db201300489b712ebf9619d2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -31,9 +31,8 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	include('Optus ATE Library');
+
 	// Add your code here
-	// Magic code to transform ATE message into an update
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -42,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e284e9c4db201300489b712ebf96194a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Process ATE Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
@@ -50,7 +49,7 @@
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
         <sys_update_name>sys_script_e284e9c4db201300489b712ebf96194a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-26 00:56:36</sys_updated_on>
+        <sys_updated_on>2018-02-23 02:16:58</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
