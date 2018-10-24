@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
     <sys_rest_message action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <authentication_type>basic</authentication_type>
+        <authentication_type>oauth2</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile display_value="Optus ATE User">146792334f42130057f700f18110c7f7</basic_auth_profile>
         <basic_auth_user/>
         <description>Message towards Optus ATE end-point</description>
         <name>Optus ATE Message</name>
-        <oauth2_profile/>
+        <oauth2_profile display_value="Optus ATE Auth default_profile">c7db20da4f112300562a9acf9310c71d</oauth2_profile>
         <protocol_name/>
         <rest_endpoint>https://obapi.optus.com.au/ate-rest/v2.0/api/inbound</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-20 10:39:44</sys_created_on>
         <sys_id>d78c823b4f02130057f700f18110c78b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Optus ATE Message</sys_name>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
         <sys_update_name>sys_rest_message_d78c823b4f02130057f700f18110c78b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-20 11:10:02</sys_updated_on>
+        <sys_updated_on>2018-10-24 00:53:25</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

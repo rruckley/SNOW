@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["b2f2ba65db031300694785184b9619ef"]}</activity_stages>
@@ -34,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-02 06:26:14</sys_created_on>
         <sys_id>30c2f629db031300694785184b96199b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-02 06:27:55</sys_updated_on>
+        <sys_updated_on>2018-10-24 00:32:21</sys_updated_on>
         <table>x_130206_optus_ate_optus_ate</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Optus ATE - Send HC Response">7ef2ba65db031300694785184b9619ec</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

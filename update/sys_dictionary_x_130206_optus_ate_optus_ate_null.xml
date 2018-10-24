@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_metadata" table="x_130206_optus_ate_optus_ate">
         <active>true</active>
         <array>false</array>
@@ -54,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-23 02:01:59</sys_created_on>
-        <sys_id>6f8fd5f9db731300b0342a9a4896191f</sys_id>
+        <sys_id>3cb6ec1a4f112300562a9acf9310c786</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_130206_optus_ate_optus_ate</sys_name>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
@@ -62,7 +61,7 @@
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
         <sys_update_name>sys_dictionary_x_130206_optus_ate_optus_ate_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-09 01:47:19</sys_updated_on>
+        <sys_updated_on>2018-10-24 00:30:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
