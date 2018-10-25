@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <name>ATE</name>
+        <oauth_entity display_value="Optus ATE Auth">38a8e8da4f112300562a9acf9310c7c7</oauth_entity>
+        <oauth_entity_scope>ATE</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 04:01:06</sys_created_on>
+        <sys_id>6c80e2664f112300562a9acf9310c711</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ATE</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>oauth_entity_scope_6c80e2664f112300562a9acf9310c711</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 04:01:06</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>
