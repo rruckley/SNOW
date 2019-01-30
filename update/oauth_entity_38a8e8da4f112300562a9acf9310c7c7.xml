@@ -9,6 +9,7 @@
         <client_id>eea41575f63946eb9439dc2991e0734a</client_id>
         <client_secret>ooAe45MhmXx8gkbnLzSrY+er7qpgOf7d9gjhsrKo3Nh7MaSa+EyjGA==</client_secret>
         <client_uuid>b4a8e8da4f112300562a9acf9310c7c7</client_uuid>
+        <code_challenge_method/>
         <comments>Sample user for testing ATE calls via SNOW APP</comments>
         <default_grant_type>password</default_grant_type>
         <id_token_lifespan>0</id_token_lifespan>
@@ -17,10 +18,12 @@
         <name>Optus ATE Auth</name>
         <oauth_api_script/>
         <protocol_name/>
+        <public_client>false</public_client>
         <redirect_url>https://dev55298.service-now.com/oauth_redirect.do</redirect_url>
         <refresh_token_lifespan>8640000</refresh_token_lifespan>
         <revoke_token_url/>
         <salt>0</salt>
+        <skip_authorize>false</skip_authorize>
         <sys_class_name>oauth_entity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-24 00:52:35</sys_created_on>

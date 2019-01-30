@@ -2,6 +2,7 @@
     <oauth_entity_profile action="INSERT_OR_UPDATE">
         <default>true</default>
         <grant_type>client_credentials</grant_type>
+        <jwt_provider/>
         <name>Optus ATE Auth default_profile</name>
         <oauth_entity display_value="Optus ATE Auth">38a8e8da4f112300562a9acf9310c7c7</oauth_entity>
         <sys_class_name>oauth_entity_profile</sys_class_name>
