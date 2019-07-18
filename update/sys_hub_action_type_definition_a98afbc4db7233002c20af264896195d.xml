@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Service Catalog">bf2f2fec73f70300b61e66476bf6a774</category>
+        <copied_from>b022330cdb3233002c20af26489619f4</copied_from>
+        <copied_from_name>Optus ATE Send</copied_from_name>
+        <description>Send ATE message to Optus </description>
+        <internal_name>optus_ate_send</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>c89a3fc4db7233002c20af264896198a</latest_snapshot>
+        <master_snapshot>dc9a3fc4db7233002c20af26489619a0</master_snapshot>
+        <name>Optus ATE Send</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-18 01:54:32</sys_created_on>
+        <sys_id>a98afbc4db7233002c20af264896195d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Optus ATE Send</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a98afbc4db7233002c20af264896195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-18 01:54:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a98afbc4db7233002c20af264896195d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a98afbc4db7233002c20af264896195d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a98afbc4db7233002c20af264896195d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-18 01:54:33</sys_created_on>
+        <sys_id>ce8afbc4db7233002c20af26489619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-18 01:54:33</sys_updated_on>
+        <value>SUCCESS</value>
+        <variable display_value="">c68afbc4db7233002c20af26489619b0</variable>
+    </sys_variable_value>
+</record_update>

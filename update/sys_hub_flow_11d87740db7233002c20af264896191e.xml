@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>ATE interactions with Optus</description>
+        <internal_name>optus_ate</internal_name>
+        <label_cache>[{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Short Description","label":"1➛Short Description","reference_display":"Short Description","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Correlation Id","label":"1➛Correlation Id","reference_display":"Correlation Id","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Description","label":"1➛Description","reference_display":"Description","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.State","label":"1➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Caller Id","label":"1➛Caller Id","reference_display":"Caller Id","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Business Service","label":"1➛Business Service","reference_display":"Business Service","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Category","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Subcategory","label":"1➛Subcategory","reference_display":"Subcategory","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Impact","label":"1➛Impact","reference_display":"Impact","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Urgency","label":"1➛Urgency","reference_display":"Urgency","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Configuration Item","label":"1➛Configuration Item","reference_display":"Configuration Item","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Assigned To","label":"1➛Assigned To","reference_display":"Assigned To","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Assignment group","label":"1➛Assignment group","reference_display":"Assignment group","type":"string","base_type":"string"},{"name":"b35bc20f-a6d0-4c35-badb-e5695b387be6.Contact Type","label":"1➛Contact Type","reference_display":"Contact Type","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Optus ATE - Create</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-18 01:47:08</sys_created_on>
+        <sys_id>11d87740db7233002c20af264896191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Optus ATE - Create</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>sys_hub_flow_11d87740db7233002c20af264896191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-18 01:53:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=11d87740db7233002c20af264896191e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=11d87740db7233002c20af264896191e"/>
+</record_update>

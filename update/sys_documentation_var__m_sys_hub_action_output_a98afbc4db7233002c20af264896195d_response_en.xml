@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="briefdescription" label="BriefDescription" language="en" table="x_130206_optus_ate_optus_ate">
+    <sys_documentation element="response" label="Response" language="en" table="var__m_sys_hub_action_output_a98afbc4db7233002c20af264896195d">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>briefdescription</element>
+            <element>response</element>
             <help/>
             <hint/>
-            <label>BriefDescription</label>
+            <label>Response</label>
             <language>en</language>
-            <name>x_130206_optus_ate_optus_ate</name>
-            <plural>BriefDescriptions</plural>
+            <name>var__m_sys_hub_action_output_a98afbc4db7233002c20af264896195d</name>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-23 02:06:14</sys_created_on>
-            <sys_id>164f3bc3dba233002c20af2648961923</sys_id>
+            <sys_created_on>2019-07-18 01:54:33</sys_created_on>
+            <sys_id>828afbc4db7233002c20af26489619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>BriefDescription</sys_name>
+            <sys_name>Response</sys_name>
             <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
-            <sys_update_name>sys_documentation_x_130206_optus_ate_optus_ate_briefdescription_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a98afbc4db7233002c20af264896195d_response_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-23 02:06:14</sys_updated_on>
+            <sys_updated_on>2019-07-18 01:54:33</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
