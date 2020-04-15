@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create ATE">59d2f5ff2f041010e247ea5ef699b6fe</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 07:10:38</sys_created_on>
+        <sys_id>fb437dbf2f041010e247ea5ef699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create ATE</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fb437dbf2f041010e247ea5ef699b687</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 07:10:38</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="OptEventOut" max_length="40" name="x_130206_optus_ate_opteventout" type="collection">
+        <element label="messageCompany" max_length="40" name="messagecompany" type="string"/>
+        <element label="messageType" max_length="40" name="messagetype" type="string"/>
+        <element label="payload" max_length="40" name="payload" type="string"/>
+    </element>
+</database>
