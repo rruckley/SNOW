@@ -4,27 +4,118 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <content/>
+        <content>{&#13;
+  "header": {&#13;
+    "messageCorrelationId": "123e4567-e89b-12d3-a456-426655440000",&#13;
+    "messageCompany": "${messageCompany}",&#13;
+    "messageCompanyUID": ${messageCompanyUID},&#13;
+    "messageType": 23,&#13;
+    "messageAction": "UPDATE",&#13;
+    "messageDate": "2018-08-13T11:16:31Z",&#13;
+    "messageStatus": "PENDING",&#13;
+    "messageRouting": "ate.VENDOR.SMOD.${messageCompany}",&#13;
+    "messageSource": "${messageCompany}",&#13;
+    "messageModule": "${messageModule}",&#13;
+    "errorMessage": ""&#13;
+  },&#13;
+  "data": {&#13;
+    "ticket": {&#13;
+      "remoteId": "INC439823",&#13;
+      "remoteParent": "INC439822",&#13;
+      "remoteStatus": "Open",&#13;
+      "localId": "OBINC0094392",&#13;
+      "localParent": "OBINC094391",&#13;
+      "localStatus": "Customer-Pending"&#13;
+    },&#13;
+    "class": {&#13;
+      "problemType": "NTU",&#13;
+      "productType": "Evolve",&#13;
+      "category": "Network",&#13;
+      "subCategory": "Outage"&#13;
+    },&#13;
+    "lifecycle": {&#13;
+      "status": "",&#13;
+      "impact": "4 - User",&#13;
+      "urgency": "1",&#13;
+      "priority": "3",&#13;
+      "closureCode": "Resolved",&#13;
+      "resolutionCode": "Rebooted",&#13;
+      "assignmentGroup": "TOCC-Networks-T2"&#13;
+    },&#13;
+    "times": {&#13;
+      "open": "2018-08-13T14:21:31Z",&#13;
+      "close": "2018-08-13T15:33:31Z",&#13;
+      "downtimeStart": "2018-08-13T14:13:31Z",&#13;
+      "downtimeEnd": "2018-08-13T15:29:31Z",&#13;
+      "plannedStart": "2020-03-13T11:00:00Z",&#13;
+      "plannedEnd": "2020-03-13T13:00:00Z",&#13;
+      "outageStart": "2020-03-31T11:30:00Z",&#13;
+      "outageEnd": "2020-03-31T12:00:00Z"&#13;
+    },&#13;
+    "change": {&#13;
+      "approval": "",&#13;
+      "rejection": "",&#13;
+      "backoutPlan": "",&#13;
+      "impactAnalysis": "",&#13;
+      "implementationPlan": "",&#13;
+      "justification": "",&#13;
+      "postVerificationTest": ""&#13;
+    },&#13;
+    "contact": {&#13;
+      "emailAddress": "${email}",&#13;
+      "firstName": "${firstName}",&#13;
+      "lastName": "${lastName}",&#13;
+      "mobileNumber": "${mobile}",&#13;
+      "phoneNumber": "${phone}",&#13;
+      "location": "${location}"&#13;
+    },&#13;
+    "configurationItems": [&#13;
+      "${configItem}"&#13;
+    ],&#13;
+    "notes": {&#13;
+      "briefDescription": "Device is down",&#13;
+      "detailedDescription": "Device is no longer responding to pings",&#13;
+      "lastUpdateComment": "Reset connection at PE, responses appear ok"&#13;
+    },&#13;
+    "extension": [&#13;
+      {&#13;
+        "fieldType": "Request",&#13;
+        "fieldName": "CostCentre",&#13;
+        "fieldValue": "4456"&#13;
+      }&#13;
+    ]&#13;
+  },&#13;
+  "attachments": [&#13;
+    {&#13;
+      "fileName": "myfile.txt",&#13;
+      "mimeType": "text/plain",&#13;
+      "fileSize": 0,&#13;
+      "fileData": "",&#13;
+      "lastUpdated": "",&#13;
+      "attachmentStatus": ""&#13;
+    }&#13;
+  ]&#13;
+}</content>
         <function_name>Update</function_name>
         <http_method>patch</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>Optus ATE Message [ Update ]</qualified_name>
-        <rest_endpoint>https://obapi.optus.com.au/ate-rest/v2.0/api/inbound</rest_endpoint>
+        <rest_endpoint>https://sit.obapi.optus.com.au/ate-rest/v2.0/api/OBATE/inbound</rest_endpoint>
         <rest_message display_value="Optus ATE Message">d78c823b4f02130057f700f18110c78b</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-20 10:42:37</sys_created_on>
         <sys_id>ed2196bb4f02130057f700f18110c773</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Update</sys_name>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
         <sys_update_name>sys_rest_message_fn_ed2196bb4f02130057f700f18110c773</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-20 10:42:37</sys_updated_on>
+        <sys_updated_on>2020-04-23 00:03:33</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
