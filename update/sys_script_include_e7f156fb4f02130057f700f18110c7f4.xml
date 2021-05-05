@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_130206_optus_ate.Optus_ATE</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Library of functions to support ATE activities including sending and receiving create and updates</description>
         <name>Optus_ATE</name>

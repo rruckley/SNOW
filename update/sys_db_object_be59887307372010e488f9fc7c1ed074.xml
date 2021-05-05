@@ -3,6 +3,7 @@
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -16,19 +17,20 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Application File" name="sys_metadata">cf5601301c120010785061945362ad5f</super_class>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Application File" name="sys_metadata">cd203300c923101091f9f0646483275f</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-23 02:01:58</sys_created_on>
-        <sys_id>62c02944db201300489b712ebf9619a6</sys_id>
+        <sys_id>be59887307372010e488f9fc7c1ed074</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Optus ATE</sys_name>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
-        <sys_update_name>sys_db_object_62c02944db201300489b712ebf9619a6</sys_update_name>
+        <sys_update_name>sys_db_object_be59887307372010e488f9fc7c1ed074</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-02-23 02:01:58</sys_updated_on>
         <update_access>false</update_access>

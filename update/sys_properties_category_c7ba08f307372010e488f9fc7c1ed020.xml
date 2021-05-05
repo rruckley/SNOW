@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Optus ATE</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-05 05:40:29</sys_created_on>
+        <sys_id>c7ba08f307372010e488f9fc7c1ed020</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Optus ATE</sys_name>
+        <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
+        <sys_update_name>sys_properties_category_c7ba08f307372010e488f9fc7c1ed020</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-05 05:40:50</sys_updated_on>
+        <title><![CDATA[<p>Properties related to Optus ATE client-side application</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7ba08f307372010e488f9fc7c1ed020"/>
+</record_update>

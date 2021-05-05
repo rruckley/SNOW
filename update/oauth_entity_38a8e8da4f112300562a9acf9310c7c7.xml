@@ -21,8 +21,10 @@
         <public_client>false</public_client>
         <redirect_url>https://dev55298.service-now.com/oauth_redirect.do</redirect_url>
         <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
         <revoke_token_url/>
         <salt>0</salt>
+        <send_client_credentials_as/>
         <skip_authorize>false</skip_authorize>
         <sys_class_name>oauth_entity</sys_class_name>
         <sys_created_by>admin</sys_created_by>

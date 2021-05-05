@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
     <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>x_130206_optus_ate.OptusATE</id>
         <multiple_connections>false</multiple_connections>
         <name>OptusATE</name>
+        <parent/>
+        <retry_policy/>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-03 22:20:04</sys_created_on>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
     <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
         <name>ATE</name>
         <oauth_entity display_value="Optus ATE Auth">38a8e8da4f112300562a9acf9310c7c7</oauth_entity>
         <oauth_entity_scope>ATE</oauth_entity_scope>
