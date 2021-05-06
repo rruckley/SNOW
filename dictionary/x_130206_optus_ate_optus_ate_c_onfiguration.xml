@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Optus ATE C onfiguration" max_length="40" name="x_130206_optus_ate_optus_ate_c_onfiguration" type="collection">
+        <element default="False" label="Registered" max_length="40" name="registered" type="boolean"/>
+        <element label="RegistrationId" max_length="40" name="registrationid" type="string"/>
+    </element>
+</database>

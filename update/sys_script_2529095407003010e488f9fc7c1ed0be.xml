@@ -3,24 +3,25 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_130206_optus_ate_optus_ate</collection>
+        <collection>x_130206_optus_ate_optus_ate_c_onfiguration</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_130206_optus_ate_optus_ate">sys_scope=d8a02d04db201300489b712ebf9619d2^EQ<item display_table="sys_scope" display_value="Optus ATE" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="d8a02d04db201300489b712ebf9619d2"/>
+        <filter_condition table="x_130206_optus_ate_optus_ate_c_onfiguration">registrationidISNOTEMPTY^registered=false^EQ<item endquery="false" field="registrationid" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="registered" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Process inbound ATE Record</name>
+        <name>RegisterATE</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,27 +32,29 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Generate outbound REST payload
-	
+	// Add your code here
+	// Send registration information through to Optus and confirm result status.
+	// If result is success, then update Registered to true else leave as false
+	// Step1 - Send registration REST message
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-23 02:16:58</sys_created_on>
+        <sys_created_on>2021-05-06 23:31:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e284e9c4db201300489b712ebf96194a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Process inbound ATE Record</sys_name>
+        <sys_id>2529095407003010e488f9fc7c1ed0be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>RegisterATE</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optus ATE" source="x_130206_optus_ate">d8a02d04db201300489b712ebf9619d2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optus ATE">d8a02d04db201300489b712ebf9619d2</sys_scope>
-        <sys_update_name>sys_script_e284e9c4db201300489b712ebf96194a</sys_update_name>
+        <sys_update_name>sys_script_2529095407003010e488f9fc7c1ed0be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-05 05:49:32</sys_updated_on>
-        <template/>
-        <when>after</when>
+        <sys_updated_on>2021-05-06 23:35:44</sys_updated_on>
+        <template>registered=true^EQ</template>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=e284e9c4db201300489b712ebf96194a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2529095407003010e488f9fc7c1ed0be"/>
 </record_update>
